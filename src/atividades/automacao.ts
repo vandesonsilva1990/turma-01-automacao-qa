@@ -6,7 +6,7 @@ let automatizaveis: number = 0;
 let naoAutomatizaveis: number = 0;
 
 for(let i= 1; i<=5; i++) {
-    const cenario: String = prompt(`Digite o ${i}° cenario: `);
+    const cenario: String = prompt(`Digite o ${i}°  cenario: `);
     const resposta: string = prompt(` É automatizavél? (sim/não)`)
     resposta.toLowerCase();
 
